@@ -96,7 +96,7 @@ Stop all:
 docker stop mysql57 myapp
 `
 
-## <span style="color:#6db33f;" >Step 3:</span> App on Kubernetes:
+## <span style="color:#6db33f;" >Step 3:</span> App on Kubernetes
 
 We have an application and image running in docker
 Now, we deploy application in a kubernetes cluster running in our machine
@@ -269,7 +269,7 @@ curl --location --request POST 'http://dev.local/app/users' \
 }'
 `
 
-## <span style="color:#6db33f;" >Step 4:</span> Debug app:
+## <span style="color:#6db33f;" >Step 4:</span> Debug app
 
 add   JAVA_OPTS: "-agentlib:jdwp=transport=dt_socket,address=*:5005,server=y,suspend=n"
  
